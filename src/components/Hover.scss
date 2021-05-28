@@ -1,0 +1,23 @@
+@import "../style/constant.scss";
+
+.hover-div {
+  display: flex;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  &:hover {
+    color: $color-white;
+  }
+
+  .hover-btn-clear {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    color: $color-silver;
+  }
+}
